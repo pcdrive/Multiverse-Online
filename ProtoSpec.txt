@@ -1,0 +1,15 @@
+﻿A prototípusban meg kell valósítani a minimum követelmények egy részét, amiket az alpha test tartalmaz.
+
+proto:
+Tereptárgyak, objektumok: a pályára tehetőnek kell lennie objektumoknak.
+játékosok: látniuk kell egymás, mozogniuk kell, tudni. Minimális mozdulatok, az animálva.
+főbb funkciók: mozgás minden irányba, eselteg egyéb műveletek.
+szörnyek: szörnyek, ami szintén képesek mászkálni.
+
+Az objektumok, amik a pálya részei, azaz statikusak, a játék frissítésekor kerülnek be, azaz a következő buildnél.
+A nem statikus dolgok pedig hozzáadhatóak játék közben. Spawnolhatóak.
+A mozgás a térben való haladást és annak animációját is jelenti, azaz a prototípusban animált karaktereket látunk a hálózaton.
+
+note:
+
+Az animáció megosztható a játékosk között, agy animator controllerrel, azaz csak a csontszerkezetnek kell azonosnak lennie.
